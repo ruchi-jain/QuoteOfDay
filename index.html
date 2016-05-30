@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Random Quote Machine</title>
-        <link href="css/main.css" type="text/css" rel="stylesheet">
-            
-        <link rel="canonical" href="https://dev.twitter.com/web/tweet-button">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-        <script type="application/javascript" src="js/main.js"></script>
-    </head>
-    <body>
-        <div class="layer">Quote of the day</div>
-        <div id="div1"></div>
-        
-        <br>
-        <br>
-        <a class="twitter-share-button"
-         href="https://twitter.com/intent/tweet?text="
-         data-size="large">
-        Tweet</a>
-        <button class="button">Quote</button>
 
-    </body>
+<head>
+    <title>Random Quote Machine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script type="application/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="layer">Quote of the day</div>
+    <div class="quote-box">
+        <div class="quote-text"></div>
+
+
+        <div class="buttons">
+            <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a class="button" id="tumblr-quote" title="Post this quote on tumblr!" target="_blank">
+                <i class="fa fa-tumblr"></i>
+            </a>
+            <button class="button" id="new-quote">New Quote</button>
+
+        </div>
+    </div>
+
+
+
+</body>
+
 </html>
